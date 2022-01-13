@@ -26,3 +26,7 @@
 
 ;; anzu-mode
 (global-anzu-mode 1)
+
+;; flycheck
+(exec-path-from-shell-initialize)
+(add-hook 'after-init-hook #'global-flycheck-mode)
