@@ -23,3 +23,6 @@
 
 ;; diff-hl-mode (git diff)
 (global-diff-hl-mode)
+
+;; anzu-mode
+(global-anzu-mode 1)
