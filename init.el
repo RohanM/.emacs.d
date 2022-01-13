@@ -17,10 +17,11 @@
 (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
 (setq scroll-step 2) ;; keyboard scroll one line at a time
 
-;; warn when opening files bigger than 100MB
+;; Warn when opening files bigger than 100MB
 (setq large-file-warning-threshold 100000000)
 
 ;; Delete trailing whitespace
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
-
+;; Display file size
+(size-indication-mode t)
