@@ -20,3 +20,6 @@
 (if (fboundp 'global-display-line-numbers-mode)
     (global-display-line-numbers-mode)
   (global-nlinum-mode t))
+
+;; diff-hl-mode (git diff)
+(global-diff-hl-mode)
