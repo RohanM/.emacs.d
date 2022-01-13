@@ -39,3 +39,8 @@
 ;;(setq yas-verbosity 1)
 ;;;; Wrap around region
 ;;(setq yas-wrap-around-region t)
+
+;; line numbers
+(if (fboundp 'global-display-line-numbers-mode)
+    (global-display-line-numbers-mode)
+  (global-nlinum-mode t))

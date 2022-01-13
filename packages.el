@@ -24,7 +24,7 @@
     magit
     multiple-cursors
     ;;move-text
-    ;;nlinum
+    nlinum
     ;;operate-on-number
     ;;smartrep
     ;;super-save
