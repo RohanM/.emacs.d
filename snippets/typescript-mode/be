@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: be
+# key: be
+# group: testing
+# This snippet is in web-mode because tide uses this as its major mode for typescript
+# --
+beforeEach(() => {
+  $0
+});

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: ite
+# key: ite
+# group: testing
+# --
+it "$1"

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: desc
+# key: desc
+# group: testing
+# This snippet is in web-mode because tide uses this as its major mode for typescript
+# --
+describe("$1", () => {
+  $0
+});

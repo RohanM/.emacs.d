@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: it
+# key: it
+# group: testing
+# This snippet is in web-mode because tide uses this as its major mode for typescript
+# --
+it("$1", () => {
+  $0
+});

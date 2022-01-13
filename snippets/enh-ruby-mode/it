@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: it
+# key: it
+# group: testing
+# --
+it "$1" do
+  $0
+end

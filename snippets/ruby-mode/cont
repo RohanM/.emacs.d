@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: cont
+# key: cont
+# group: testing
+# --
+context "$1" do
+  $0
+end
