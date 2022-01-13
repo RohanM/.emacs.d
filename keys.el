@@ -14,3 +14,7 @@
 (defun load-dark-theme () (interactive) (load-theme 'zenburn t))
 (global-set-key (kbd "C-x l") 'load-light-theme)
 (global-set-key (kbd "C-x d") 'load-dark-theme)
+
+;; Use command key instead of meta for some difficult-to-reach combos
+(global-set-key (kbd "s-<") 'beginning-of-buffer)
+(global-set-key (kbd "s->") 'end-of-buffer)
