@@ -25,3 +25,6 @@
 
 ;; Display file size
 (size-indication-mode t)
+
+;; Theme
+(load-theme 'zenburn t)

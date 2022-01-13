@@ -9,3 +9,8 @@
 ;;(global-set-key "\C-x\C-k" 'kill-region)
 ;;(global-set-key "\C-c\C-k" 'kill-region)
 
+;; Swap between light and dark theme
+(defun load-light-theme () (interactive) (disable-theme 'zenburn))
+(defun load-dark-theme () (interactive) (load-theme 'zenburn t))
+(global-set-key (kbd "C-x l") 'load-light-theme)
+(global-set-key (kbd "C-x d") 'load-dark-theme)
