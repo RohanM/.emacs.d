@@ -17,20 +17,20 @@
     epl
     expand-region
     flycheck
-    ;git-timemachine
-    ;git-modes
-    ;hl-todo
-    ;imenu-anywhere
+    ;;git-timemachine
+    ;;git-modes
+    ;;hl-todo
+    ;;imenu-anywhere
     magit
-    ;move-text
-    ;nlinum
-    ;operate-on-number
-    ;smartrep
-    ;super-save
-    ;undo-tree
-    ;volatile-highlights
-    ;which-key
     multiple-cursors
+    ;;move-text
+    ;;nlinum
+    ;;operate-on-number
+    ;;smartrep
+    ;;super-save
+    ;;undo-tree
+    ;;volatile-highlights
+    ;;which-key
     zenburn-theme
     zop-to-char)
   "A list of packages to ensure are installed at launch.")
