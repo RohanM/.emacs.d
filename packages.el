@@ -27,6 +27,7 @@
     ;;move-text
     nlinum
     ;;operate-on-number
+    prettier
     ;;smartrep
     ;;super-save
     ;;undo-tree

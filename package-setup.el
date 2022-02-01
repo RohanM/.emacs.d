@@ -30,3 +30,7 @@
 ;; flycheck
 (exec-path-from-shell-initialize)
 (add-hook 'after-init-hook #'global-flycheck-mode)
+
+;; prettier
+;;(add-hook 'after-init-hook #'global-prettier-mode)
+;; Now enabled via .dir-locals.el
