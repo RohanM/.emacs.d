@@ -42,3 +42,6 @@
 ;; prettier
 ;;(add-hook 'after-init-hook #'global-prettier-mode)
 ;; Now enabled via .dir-locals.el
+
+;; indent
+(setq js-indent-level 2)
