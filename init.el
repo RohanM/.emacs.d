@@ -28,3 +28,8 @@
 
 ;; Theme
 (load-theme 'zenburn t)
+
+;; Emacs server
+(require 'server)
+(unless (server-running-p)
+  (server-start))
