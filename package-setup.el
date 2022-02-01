@@ -28,8 +28,16 @@
 (global-anzu-mode 1)
 
 ;; flycheck
+(add-hook 'ruby-mode-hook
+  (lambda ()
+    (setq-local flycheck-command-wrapper-function
+                (lambda (command) (append '("bundle" "exec") command)))))
 (exec-path-from-shell-initialize)
 (add-hook 'after-init-hook #'global-flycheck-mode)
+
+;; ruby
+(setq ruby-insert-encoding-magic-comment nil)
+(setq enh-ruby-add-encoding-comment-on-save nil)
 
 ;; prettier
 ;;(add-hook 'after-init-hook #'global-prettier-mode)
