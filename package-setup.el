@@ -32,12 +32,18 @@
   (lambda ()
     (setq-local flycheck-command-wrapper-function
                 (lambda (command) (append '("bundle" "exec") command)))))
+(add-hook 'enh-ruby-mode-hook
+  (lambda ()
+    (setq-local flycheck-command-wrapper-function
+                (lambda (command) (append '("bundle" "exec") command)))))
 (exec-path-from-shell-initialize)
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
 ;; ruby
 (setq ruby-insert-encoding-magic-comment nil)
 (setq enh-ruby-add-encoding-comment-on-save nil)
+(add-to-list 'auto-mode-alist
+             '("\\(?:\\.rb\\|ru\\|rake\\|thor\\|jbuilder\\|gemspec\\|podspec\\|/\\(?:Gem\\|Rake\\|Cap\\|Thor\\|Vagrant\\|Guard\\|Pod\\)file\\)\\'" . enh-ruby-mode))
 
 ;; prettier
 ;;(add-hook 'after-init-hook #'global-prettier-mode)
