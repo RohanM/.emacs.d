@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# name: sce
-# key: sce
-# group: testing
-# --
-scenario "$1" do
-  $0
-end

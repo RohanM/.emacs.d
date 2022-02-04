@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# name: be
-# key: be
-# group: testing
-# --
-before do
-  $0
-end
