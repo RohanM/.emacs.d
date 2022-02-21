@@ -18,3 +18,7 @@
 ;; Use command key instead of meta for some difficult-to-reach combos
 (global-set-key (kbd "s-<") 'beginning-of-buffer)
 (global-set-key (kbd "s->") 'end-of-buffer)
+(global-set-key (kbd "s-d") 'kill-word)
+(global-set-key (kbd "s-w") 'kill-ring-save)
+(global-set-key (kbd "<s-backspace>") 'backward-kill-word)
+(global-set-key (kbd "s-m") 'back-to-indentation)
