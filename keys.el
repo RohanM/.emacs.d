@@ -14,3 +14,7 @@
 (defun load-dark-theme () (interactive) (load-theme 'zenburn t))
 (global-set-key (kbd "C-x l") 'load-light-theme)
 (global-set-key (kbd "C-x d") 'load-dark-theme)
+
+;; Paragraph navigation
+(global-set-key (kbd "M-<up>") 'backward-paragraph)
+(global-set-key (kbd "M-<down>") 'forward-paragraph)
