@@ -8,4 +8,7 @@
 
 (setq mc/cmds-to-run-once
       '(
+        enh-ruby-electric-brace
+        ido-find-file
+        isearch-forward-regexp
         ))
