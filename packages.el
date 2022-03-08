@@ -10,6 +10,7 @@
   '(ag
     anzu
     browse-kill-ring
+    company
     crux
     diff-hl
     easy-kill
@@ -137,7 +138,7 @@ PACKAGE is installed only if not already present.  The file is opened in MODE."
     ("\\.swift\\'" swift-mode swift-mode)
     ("\\.textile\\'" textile-mode textile-mode)
     ("\\.thrift\\'" thrift thrift-mode)
-    ("\\.ts\\'" typescript-mode typescript-mode)
+    ("\\.ts\\'" tide tide-mode)
     ("\\.yml\\'" yaml-mode yaml-mode)
     ("\\.yaml\\'" yaml-mode yaml-mode)
     ("Dockerfile\\'" dockerfile-mode dockerfile-mode)))
